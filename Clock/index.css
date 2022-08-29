@@ -1,0 +1,58 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-left: 20em;
+}
+
+.box {
+    text-align: center;
+    margin: 1px;
+}
+
+.dark-mode {
+    text-align: center;
+    margin: 1px;
+    background-color: black;
+    color: white;
+}
+
+.box:hover {
+    transform: scale(1.2);
+}
+
+.time {
+    height: 4em;
+    width: 4em;
+    margin: 2em;
+    padding: 2em;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 30px;
+}
+
+.time>h1 {
+    margin-left: 0.5em;
+}
+
+.nav {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.background {
+    background-size: cover;
+}
